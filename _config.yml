@@ -417,3 +417,7 @@ vendors:
     copy_tex: npm/katex@0.16.7/dist/contrib/copy-tex.min.js # ok
     chart: npm/frappe-charts@1.5.0/dist/frappe-charts.min.iife.min.js # ok
 
+deploy:
+  type: git
+  repo: git@github.com:Rockly97/rockly97.github.io.git
+  branch: main
