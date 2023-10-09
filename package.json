@@ -1,0 +1,51 @@
+{
+    "name": "hexo-theme-shokax",
+    "version": "0.3.6",
+    "description": "a hexo theme based on shoka",
+    "main": "index.js",
+    "repository": "https://github.com/theme-shoka-x/hexo-theme-shokaX",
+    "author": "zkz098",
+    "license": "AGPL-3.0-or-later",
+    "scripts": {
+        "test": "mocha test --coverage",
+        "build": "pnpm install && tsc"
+    },
+    "devDependencies": {
+        "@types/chai": "^4.3.5",
+        "@types/fancybox": "^3.5.3",
+        "@types/hexo": "^3.8.8",
+        "@types/jquery": "^3.5.17",
+        "@types/js-yaml": "^4.0.5",
+        "@types/lozad": "^1.16.1",
+        "@types/mocha": "^10.0.1",
+        "@types/node": "^20.5.6",
+        "@typescript-eslint/eslint-plugin": "^6.4.1",
+        "@typescript-eslint/parser": "^6.4.1",
+        "chai": "^4.3.8",
+        "eslint": "^8.47.0",
+        "eslint-config-standard": "*",
+        "eslint-plugin-chai-friendly": "^0.7.2",
+        "eslint-plugin-import": "^2.28.1",
+        "eslint-plugin-n": "^16.0.2",
+        "eslint-plugin-promise": "^6.1.1",
+        "eslint-plugin-vue": "^9.17.0",
+        "hexo-fs": "^4.1.1",
+        "hexo-util": "^3.1.0",
+        "instantsearch.js": "^4.56.9",
+        "mocha": "^10.2.0",
+        "typescript": "^5.2.2",
+        "vue": "^3.3.4",
+        "jsdom": "^22.1.0"
+    },
+    "dependencies": {
+        "esbuild": "^0.19.2",
+        "js-yaml": "^4.1.0",
+        "lozad": "^1.16.0",
+        "theme-shokax-anime": "^0.0.4",
+        "theme-shokax-pjax": "^0.0.2"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "engineStrict": true
+}
